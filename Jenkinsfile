@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                Sh 'echo Wajeeha Hamid'
+                sh 'echo Wajeeha Hamid'
 		sh 'python pytest.py'
             }
         }
